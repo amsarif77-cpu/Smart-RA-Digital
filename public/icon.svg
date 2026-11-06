@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background with smooth rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <!-- Inner border ring -->
+  <rect x="24" y="24" width="464" height="464" rx="96" stroke="rgba(255,255,255,0.2)" stroke-width="4" />
+  
+  <!-- Quran / Book Motif -->
+  <path d="M120 330 C180 300 240 310 256 340 C272 310 332 300 392 330 L392 200 C332 170 272 180 256 210 C240 180 180 170 120 200 Z" fill="#ffffff" />
+  <path d="M256 210 L256 340" stroke="#047857" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Star / Sparkle of Knowledge -->
+  <path d="M256 120 L266 148 L294 158 L266 168 L256 196 L246 168 L218 158 L246 148 Z" fill="url(#goldGrad)" />
+  
+  <!-- Crescent / Child Bloom Accent -->
+  <circle cx="340" cy="140" r="16" fill="url(#goldGrad)" opacity="0.9" />
+  <circle cx="172" cy="140" r="16" fill="url(#goldGrad)" opacity="0.9" />
+  
+  <!-- Text Label -->
+  <text x="256" y="415" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="44" fill="#ffffff" letter-spacing="2">SMART RA</text>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Smart RA Digital",
+  "description": "Sistem Manajemen Raudlatul Athfal Terpadu Berbasis Web - Satu platform untuk seluruh layanan RA, pembelajaran, tumbuh kembang, keuangan & BOS, serta supervisi.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
